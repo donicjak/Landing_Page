@@ -128,5 +128,28 @@ button {
 }
 
 .third {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.quote {
+    font-size: 23px;
+    width: 484px;
+
+    font-style: italic;
+    color: #1F2937;
+}
+
+.name {
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 300px;
 }
