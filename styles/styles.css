@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    margin: 0px;
 }
 
 header {
@@ -40,6 +42,7 @@ li {
     background-color: #1F2937;
     gap: 15px;
     padding: 75px;
+    flex: 1;
 }
 
 h2 {
@@ -84,6 +87,7 @@ button {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 50px;
+    flex: 1;
 }
 
 .heading-text {
@@ -136,6 +140,7 @@ button {
     background-color: #E5E7EB;
     padding-top: 50px;
     padding-bottom: 25px;
+    flex: 1;
 }
 
 .quote {
@@ -152,4 +157,59 @@ button {
     display: flex;
     justify-content: flex-end;
     padding-left: 300px;
+}
+
+.fourth {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.container {
+    display: flex;
+    background-color: #3882F6;
+    width: 750px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 15px;
+
+}
+
+.white-heading {
+    color:#E5E7EB;
+    font-weight: bold;
+}
+
+.white-text {
+    color:#E5E7EB;
+
+}
+
+.button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: solid 1px #E5E7EB;
+    border-radius: 8%;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 11px;
+}
+
+.footer {
+    margin: 20px 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
